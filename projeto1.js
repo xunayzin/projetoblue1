@@ -20,7 +20,7 @@ console.log(p1);
 if (p1 == r1) {
     result1 = (result + 1);
 } else {
-    result1 = (result + 0);
+    result1 = result);
 }
 
 
@@ -31,7 +31,8 @@ console.log(p2);
 if (p2 == r1) {
     result2 = ( result1 + 1);
 } else{
-    result2 = (result1 + 0);
+    result2 = result1 ;
+   
 }
 
 console.log('Duelou contra alguém?');
@@ -41,7 +42,7 @@ console.log(p3);
 if (p3 == r1) {
     result3 = (result2 +1);
 } else{
-    result3 = (result2 + 0);
+    result3 = result2 ;
 }
 
 
@@ -51,7 +52,7 @@ console.log(p4);
 if (p4 == r1) { 
     result4 = (result3 + 1);
 } else{
-    result4 = (result3 + 0);
+    result4 = result3 ;
 }
 
 console.log('Encontrou a pedra fundamental para o renascimento da magia? ');
@@ -60,7 +61,7 @@ console.log(p5) ;
 if (p5 == r1) { 
     result5 = (result4 + 1);
 } else{
-    result5 = (result4 + 0) 
+    result5 = result4 ; 
 }
 console.log(`Seu resultado foi de ${result5} estrelas.`);
 
