@@ -20,7 +20,7 @@ console.log(p1);
 if (p1 == r1) {
     result1 = (result + 1);
 } else {
-    result1 = result);
+    result1 = result;
 }
 
 
